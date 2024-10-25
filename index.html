@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com" />
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Galeria de Fotos</h1>
+      <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+      <h2>Inserir nova imagem</h2>
+      <input type="url" id="url-nova-imagem" placeholder="URL da imagem" />
+      <button type="submit" id="botao-adicionar">Adicionar</button>
+      <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+      <li>
+        <img
+          src="https://www.infoescola.com/wp-content/uploads/2017/04/leao-126767138-1000x673.jpg "
+          alt="Lion"
+          width="300"
+        />
+
+        <div class="overlink-style">
+          <a
+            href="https://www.infoescola.com/wp-content/uploads/2017/04/leao-126767138-1000x673.jpg"
+            target="_blank"
+            title="Ver a imagem em tamanho real"
+            >Ver a imagem em tamanho real</a
+          >
+        </div>
+      </li>
+      <li>
+        <img
+          src="https://th.bing.com/th/id/R.eabc7594704938c63c65f75d66ea2e8c?rik=t4%2biO63ALDWkyw&riu=http%3a%2f%2fcbsnews1.cbsistatic.com%2fhub%2fi%2f2015%2f08%2f11%2f56e7f8c4-5815-4915-94f5-157e852170c6%2fgettyimages-103453502.jpg&ehk=NAc5%2b9XPgOfYYGRf8LGeKf9cgvsE7D6ZySoI%2f6N26uc%3d&risl=1&pid=ImgRaw&r=0"
+          alt="Elephant"
+          width="300"
+        />
+
+        <div class="overlink-style">
+          <a
+            href="https://th.bing.com/th/id/R.eabc7594704938c63c65f75d66ea2e8c?rik=t4%2biO63ALDWkyw&riu=http%3a%2f%2fcbsnews1.cbsistatic.com%2fhub%2fi%2f2015%2f08%2f11%2f56e7f8c4-5815-4915-94f5-157e852170c6%2fgettyimages-103453502.jpg&ehk=NAc5%2b9XPgOfYYGRf8LGeKf9cgvsE7D6ZySoI%2f6N26uc%3d&risl=1&pid=ImgRaw&r=0"
+            target="_blank"
+            title="Ver a imagem em tamanho real"
+            >Ver a imagem em tamanho real</a
+          >
+        </div>
+      </li>
+      <li>
+        <img
+          src="https://th.bing.com/th/id/OIP.rCTsR_KAQyGPQlQp2iH0ZAHaE8?rs=1&pid=ImgDetMain"
+          alt="Penguin"
+          width="300"
+        />
+
+        <div class="overlink-style">
+          <a
+            href="https://th.bing.com/th/id/OIP.rCTsR_KAQyGPQlQp2iH0ZAHaE8?rs=1&pid=ImgDetMain"
+            title="Ver a imagem em tamanho real"
+            target="_blank"
+            >Ver a imagem em tamanho real</a
+          >
+        </div>
+      </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

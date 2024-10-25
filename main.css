@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #a870c9;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 10px solid #492c5a;
+}
+
+header h1 {
+  margin-right: 10px;
+}
+
+form {
+  padding: 16px 0;
+  background-color: #e9edc9;
+  text-align: center;
+  margin: auto 0;
+  display: block;
+  display: none;
+}
+
+form h2 {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#botao-cancelar {
+  background-color: red;
+}
+
+form input {
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+
+li {
+  margin-right: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+
+img {
+  display: block;
+}
+
+.overlink-style {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 120px;
+  box-sizing: border-box;
+}
+
+li:hover .overlink-style {
+  display: block;
+}
+
+.overlink-style a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
